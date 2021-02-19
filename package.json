@@ -4,6 +4,7 @@
   "description": "Wrapper of Pino",
   "main": "lib/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "jest",
     "coverage": "jest --coverage"
   },
@@ -22,6 +23,10 @@
     "url": "https://github.com/climba03003/pino/issues"
   },
   "homepage": "https://github.com/climba03003/pino#readme",
+  "publishConfig": {
+    "access": "public",
+    "@climba03003:registry": "https://registry.npmjs.org "
+  },
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.30",
